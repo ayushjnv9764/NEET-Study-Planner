@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Study Settings">
+        <EditTextPreference
+            android:key="daily_study_goal"
+            android:title="Daily Study Goal (hours)"
+            android:defaultValue="6"
+            android:inputType="number" />
+        <SwitchPreference
+            android:key="notifications_enabled"
+            android:title="Enable Notifications"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

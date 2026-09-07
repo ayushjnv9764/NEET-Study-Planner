@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceBackupAgent>
+    <backup-agent>
+        <include domain="sharedpref" path="preferences.xml" />
+    </backup-agent>
+</PreferenceBackupAgent>
